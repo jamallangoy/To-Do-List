@@ -11,7 +11,7 @@ function TodoForm({addTodo}){
 
     return(
 <>
-        <div className="head jumbotron">To-Do List</div>
+        <div className="head ">To-Do List</div>
 
         <div className="container">
             
