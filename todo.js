@@ -17,6 +17,7 @@ function Todo({todo,index,remove}){
       <div className="card-body">
         <h5 className="card-title">{todo.text} (-)</h5>
         <p className="card-text">Here is a short message area for your todo item..</p>
+        <button className="btn btn-outline-danger btn-sm"> Delete </button>
       </div>
     </div>
   </div>

@@ -24,7 +24,7 @@ function TodoForm({addTodo}){
                         placeholder="Add Todo..."
                         onChange={(e) => setValue(e.target.value)}
                     ></input>
-                    <button className="btn btn-outline-info btn-lg">+</button>
+                    <button className="btn btn-outline-info btn-sm">Add +</button>
                 </form> 
         </div>
 
